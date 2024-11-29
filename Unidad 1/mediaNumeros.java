@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class media3numeros {
+public class mediaNumeros {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Ingrese el primer numero: ");
@@ -13,6 +13,8 @@ public class media3numeros {
 
         double media=(numero1+numero2+numero3)/3;
         System.out.println("La media es: "+media);
+
+        scanner.close();
     }
-   
+    
 }

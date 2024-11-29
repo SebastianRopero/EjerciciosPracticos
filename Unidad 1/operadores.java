@@ -12,5 +12,7 @@ public class operadores {
         int numero3=scanner.nextInt();
 
         System.out.println("numero 1>numero 2 y numero 1<numero 3: "+ (numero1>numero2 && numero1<numero3));
+
+        scanner.close();
     }
 }

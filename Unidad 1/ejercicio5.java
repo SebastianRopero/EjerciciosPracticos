@@ -11,5 +11,6 @@ public class ejercicio5 {
             System.out.println(n+"*"+contador+"="+resultado);
         }
       
+        scanner.close();
     }
 }

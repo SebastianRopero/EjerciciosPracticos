@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class entradadatos {
+public class entradaInformacion {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
@@ -17,5 +17,7 @@ public class entradadatos {
         System.out.println("Su nombre es "+nombre);
         System.out.println("Su edad es "+edad);
         System.out.printf("Su altura es %.2f ",altura);
+
+        scanner.close();
     }
 }

@@ -47,5 +47,7 @@ public class ejercicio3 {
             default:
                 break;
         }
+
+        scanner.close();
     }
 }

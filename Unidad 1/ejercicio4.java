@@ -14,5 +14,6 @@ public class ejercicio4 {
         }
         System.out.println("El factorial del numero es: " + factorial);
 
+        scanner.close();
     }
 }
